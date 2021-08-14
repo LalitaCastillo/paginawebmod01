@@ -1,0 +1,131 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background: #323A46;
+
+			font-family: Calibri, Arial, sans-serif;
+		}
+		
+		
+		.container{
+			width: 90%;
+			margin: 0px auto;
+			max-width: 1048px;
+			
+		}
+		.container img{
+			width: 100%;
+			height: auto;
+		}
+		header{
+			background: #EB4A33;
+			height: auto;
+			width: auto;
+			margin: 10px 0;
+			text-align: center;
+			color: #fff;
+		}
+		nav{
+			background: #024959;
+			width: 100%;
+			max-width: 1048px;
+			margin: 10px auto;
+			
+		}
+		nav ul li{
+			float: left;
+			overflow: hidden;
+		}
+		
+		
+		nav ul li span{
+			margin-right: 15px;
+		}
+		nav ul li a{
+			color: #fff;
+			padding: 20px;
+			display: block;
+		}
+		nav ul li a:hover{
+			background: #037e8c;
+		}
+		.menu_bar{
+			
+			width: 100%;
+		}
+		.clearfix{
+			clear: both;
+		}
+		#content{
+			float: left;
+			width: 80%;
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+		}
+		aside{
+			float: left;
+			width: 20%;
+			padding: 10px;
+			background: #323A46;
+			box-sizing: border-box;
+			color: white;
+			
+		}
+		footer{
+			background: black;
+			color: white;
+			text-align: center;
+			height: 50px;
+			line-height: 50px;
+		}
+		.article{
+			color: black;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding-bottom: 15px;
+			border-bottom: 1px solid #eee;
+			width: 100%;
+		}
+		
+		
+		.article h2{
+			font-size: 25px;
+		}
+		
+		.menu_bar .bt-menu{
+			display: block;
+			padding: 10px;
+			background: #024959;
+			color: #fff;
+			font-weight: bold;
+			font-size: 35px;
+			
+		}
+		.menu_bar span{
+			float: right;
+			font-size: 80px;
+		}
+		@media screen and (max-width: 800px){
+			#content{
+				width: 100%;
+			}
+			aside{
+				width: 100%;
+			}
+			nav{
+				width: 50%;
+				height: 100%;
+
+				margin: 0;
+				position: fixed;
+			}
+			nav ul li{
+				float: none;
+				border-bottom: 2px solid rgba(255, 255, 255, .3);
+			}
+		
+			
+		}
